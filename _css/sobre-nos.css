@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+  font-family: 'Roboto', sans-serif, Arial;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 26px;
+  color: #333;
+}
+
+.box-content {
+  width: 100%;
+  height: 1444px;
+  position: relative;
+  box-sizing: border-box;
+  content: " ";
+  display: table;
+  background-color: #ddd;
+}
+
+.box-content .box-main {
+  width: 100%;
+  height: 1444px;
+  box-sizing: border-box;
+  background-color: #bbb;
+}
+
+.box-main .box-container-section {
+  width: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
+  background-attachment: scroll;
+  border-width: 0px;
+  border-style: solid;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 0px;
+  border: 0px solid transparent;
+  position: relative;
+  box-sizing: border-box;
+}
+/*bcs = acrônimo de box-container-section
+ distribui para poder usar a classe acima em outra div*/
+.bcs-format-image {
+  height: 270px;
+  background-image: url("../assets/img/bg-justice.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 90px;
+  padding-top: 90px;
+}
+
+.box-content .box-main .more-formatting-div-dad {
+  height: 347px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  box-sizing: border-box;
+}
+
+.box-container-section .box-force-show {
+  width: 100%;
+  height: 270px;
+  opacity: 1;
+  background-color: bisque;
+  background: transparent;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  box-sizing: border-box;
+}
+
+.box-force-show .box-bg-video-overlay {
+  width: 100%;
+  height: 270px;
+  background-color: #000;
+  opacity: 0.2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+.box-force-show .box-container-section-wrapper {
+  margin: 0 auto;
+  width: 90%;
+  height: 90px;
+  content: " ";
+  display: table;
+  clear: both;
+  box-sizing: border-box;
+  margin-top: 90px;
+}
+
+.box-container-section-wrapper .box-container-area {
+  margin: 0 auto;
+  width: 90%;
+  height: 90px;
+  box-sizing: border-box;
+}
+
+.box-container-area .box-container-front {
+  width: 100%;
+  height: 90px;
+  animation: 0.65s ease 0s 1 normal none running forwards;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.box-container-front .box-text-container-content {
+  width: 100%;
+  height: 90px;
+  color: rgb(254, 254, 254);
+  font-size: 60px;
+  font-weight: 500;
+  font-family: "Roboto";
+  font-style: normal;
+  line-height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: top left;
+  background-size: auto;
+  box-sizing: border-box;
+  
+}
+
+.box-text-container-content p {
+  transition: 0.8s;
+  transition-delay: 0.2s;
+  margin: 0 0 10px;
+  color: rgb(254, 254, 254);
+  font-size: 60px;
+  font-weight: 500;
+  font-family: "Roboto";
+  font-style: normal;
+  line-height: 60px;
+  text-align: center;
+  box-sizing: border-box;
+  
+}
+
+.box-container-section .more-formatting-div-son {
+  margin: 0 auto;
+  width: 87.518%;
+  height: 217px;
+}
+
+.box-container-section-wrapper .box-container-image {
+  clear: both;
+  width: 40.42553%;
+  height: 168.92px;
+  display: block;
+  float: left;
+  margin-right: 2.12766%;
+  min-height: 1px;
+  box-sizing: border-box;
+}
+
+.box-container-content-image {
+  animation: 0.65s ease 0s 1 normal none running forwards;
+  margin-right: 0;
+  width: 100%;
+  display: block;
+  float: left;
+  min-height: 1px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.module-container-image {
+  width: 100%;
+  height: 168.92px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.box-image-file {
+  width: 100%;
+  height: 168.92px;
+  display: inline-block;
+  border: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+}
