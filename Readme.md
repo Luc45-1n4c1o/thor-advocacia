@@ -1,1 +1,1 @@
-Projeto acadêmico proposto na disciplina de Desenvolvimento Web para ser apresentado na Feira de Profissões do curso de Sistemas de Informação
+Projeto acadêmico proposto na disciplina de Desenvolvimento Web do curso de Sistemas de Informação para ser apresentado na Feira de Profissões.
